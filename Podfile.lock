@@ -1,0 +1,41 @@
+PODS:
+  - Alamofire (5.2.2)
+  - CryptoSwift (1.3.2)
+  - JGProgressHUD (2.2)
+  - ObjectMapper (4.2.0)
+  - SnapKit (5.0.1)
+  - SwiftOTP (2.0.2):
+    - CryptoSwift (>= 1.0.0)
+  - SwiftyBootpay (3.3.532):
+    - Alamofire (~> 5.2.2)
+    - CryptoSwift
+    - JGProgressHUD
+    - ObjectMapper
+    - SnapKit (~> 5.0.0)
+    - SwiftOTP
+
+DEPENDENCIES:
+  - SwiftyBootpay (~> 3.3.6)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CryptoSwift
+    - JGProgressHUD
+    - ObjectMapper
+    - SnapKit
+    - SwiftOTP
+    - SwiftyBootpay
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  CryptoSwift: 093499be1a94b0cae36e6c26b70870668cb56060
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftOTP: 572fb5601add61e93534cf6644ef236d65b4aae8
+  SwiftyBootpay: 7dc94bcccfe40b28ed719952bba7a77b27208b63
+
+PODFILE CHECKSUM: b452ade76176279f2cf651ff44183790d0bf50b7
+
+COCOAPODS: 1.10.0

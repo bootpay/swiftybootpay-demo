@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftyBootpay
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Bootpay.sharedInstance.appLaunch(application_id: "5b8f6a4d396fa665fdc2b5e9")
         return true
     }
 
